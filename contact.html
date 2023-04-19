@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Project </title>
+	<!--Laura Wilkinson CSCE 102 Section 14 3/14/2023-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+          <div id="content">
+	          <header>
+		      <h1> Everything about Me </h1>
+		</header>
+                    <nav id="main-nav">
+                             <ul>
+				<li><a href="index.html"> Home </a> </li>
+				<li><a href="quiz.html"> Quiz </a> </li> 
+				<li><a href="contact.html"> Contact Me </a> </li>	
+                             </ul>
+                   </nav>
+                   <div class="main">
+                   <div class="col-container">
+		          <h3>Directions</h3>
+			<h3>  Squishmallow Innovation Center  </h3>  
+			<p> 123 Waverly Place Street <br>
+			Columbia, SC 29204 </p>
+			<!--map-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.952357176917!2d-81.03211265052997!3d33.99375748052672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!
+			1m2!1s0x88f8bb282cb2a61b%3A0x78bd73542178f54e!2sUniversity%20of%20South%20Carolina!5e0!3m2!1sen!2sus!4v1678853258218!5m2!1sen!2sus" width="600" height="450" style="border:0;" 
+			allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<!--form-->
+			<div class="col-form">
+			        <form action="https://api.web3forms.com/submit" method="POST">
+			<h2> Contact Me </h2>
+		                  <input type="hidden" name="access_key" value="d95924da-6e26-4ea0-a3f1-25656edc3f67">
+			  <p> Name </p>
+			        <input type="text" name="name" required>
+			<p> Email </p>
+                                     <input type="email" name="email" required>
+			<p> Message </p>     
+			        <textarea name="message" required></textarea>
+			        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                             <br>
+                             <button type="submit">Submit Form</button>
+
+                             </form>
+			</div>     
+		</div>
+                   </div>
+                             <footer>
+                             <p> &copy;Laura Wilkinson </p>
+                             </footer>
+</body>
+</html>

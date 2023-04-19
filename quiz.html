@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Project Part 1 </title>
+	<!--Laura Wilkinson CSCE 102 Section 14 3/14/2023-->
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+          <div id="content">
+	          <header>
+		      <h1> Everything about Me </h1>
+		</header>
+                    <nav id="main-nav">
+                             <ul>
+                                      <li><a href="index.html"> Home </a> </li>
+				                  <li><a href="quiz.html"> Quiz </a> </li> 
+                                      <li><a href="contact.html"> Contact Me </a> </li>	
+                             </ul>
+                   </nav>
+                   <div class="main">
+                   <div class="col-container">
+		          <h2> Website Development Quiz </h2>
+					<p>
+					<label for="q-1">What is the correct code to make a blank space in the code?</label>
+					<select name="q-1" id="q-1">
+						<option>& nbsp;</option>
+						<option>there is no code just type a space in the code</option>
+						<option>-space- </option>
+						<option> 3930</option>
+						<option>*space*</option>
+					</select>
+					</p>
+					
+				<br><br>
+					<p>
+					<label for="q-2">What does CSS stand for?</label>
+					<select name="q-2" id="q-2">
+						<option>Computer Style Sheets</option>
+						<option>Creative Style Sheets</option>
+						<option>Cascading Style Sheets </option>
+						<option>Colorful Style Sheets</option>
+						<option>Convex Style Sheets</option>
+					</select>
+					</p>
+					<br><br>
+					<p>
+					<label for="q-3">Which program can create borders and add color?</label>
+					<select name="q-3" id="q-3">
+						<option>html</option>
+						<option>styles.css</option>
+						<option>script.js</option>
+						<option> index.html</option>
+						<option>none of the above</option>
+					</select>
+					</p>
+					
+					<br><br>
+					<p>
+					<label for="q-4">What is the function that will create a title for the website?</label>
+					<select name="q-4" id="q-4">
+						<option>< header > </option>
+						<option>< label ></option>
+						<option>< footer ></option>
+						<option>< h2 ></option>
+						<option>< h3 ></option>
+					</select>
+					</p>
+					
+				<br><br>
+				<button id="btn-submit" onclick="showResults()">Submit</button>
+				</div>
+				<section id="result" class="design hidden">
+				</section>
+                   </div>
+                             <footer>
+                             <p> &copy;Laura Wilkinson </p>
+                             </footer>
+			     <script src="script.js"></script>
+</body>
+</html>
